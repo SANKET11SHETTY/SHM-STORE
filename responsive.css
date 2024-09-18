@@ -1,0 +1,664 @@
+@media (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .insight-title p {
+    font-size: 12px;
+  }
+
+  .hero {
+    border-radius: 0 0 0 30px;
+
+    .logo img {
+      width: 180px;
+    }
+
+    .nav-left div,
+    .nav-right div {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .hero-btm {
+    justify-content: space-between;
+    position: absolute;
+    top: 66%;
+    width: 100%;
+
+    .hero-btm-left,
+    .arrows {
+      padding-top: 20px;
+    }
+
+    .arrows {
+      padding-top: 100px !important;
+    }
+
+    .hero-btm-left {
+      padding-left: 10px !important;
+      flex-direction: column;
+
+      p {
+        font-size: 13px;
+      }
+    }
+
+    .arrows div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 28px;
+      width: 28px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero-empowering {
+      padding-top: 20px !important;
+      width: 450px;
+      height: 151px;
+      margin-top: 60px;
+
+      h6 {
+        width: 100%;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .services-btn button {
+    padding: 10px 10px !important;
+    font-size: 12px;
+
+    position: absolute;
+    left: 55% !important;
+    top: 5%;
+  }
+
+  .ins-carousel-bottom {
+    /* max-width: 80%; */
+    h4 {
+      width: 45% !important;
+      font-size: 12px;
+    }
+
+    button {
+      padding: 10px 10px;
+
+      font-size: 12px;
+    }
+  }
+
+  .india {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.658);
+    /* box-shadow:  0px 40px 0px 0px rgba(255, 255, 255, 0.658); */
+  }
+
+  .modal {
+    position: absolute;
+    left: 0% !important;
+    margin-top: 350px;
+    margin-right: 1000px !important;
+    /* top: 100%; */
+    /* transform: translateX(-50%); */
+
+    width: 200px !important;
+  }
+
+  .india-dots {
+    position: relative;
+    left: -73% !important;
+
+    .id-1 {
+      position: relative;
+      left: -300%;
+    }
+
+    .id-2 {
+      position: relative;
+      top: 20%;
+      left: 780%;
+    }
+
+    .id-3 {
+      position: relative;
+      left: 400%;
+      top: 800% !important;
+    }
+
+    .id-4 {
+      position: relative;
+      left: -500%;
+    }
+
+    .id-5 {
+      position: relative;
+      left: 900%;
+    }
+  }
+
+  footer {
+    .footer-navs {
+      justify-content: space-around;
+      align-items: center;
+      height: 800px;
+    }
+  }
+
+  .copyright p {
+    padding-bottom: 10px !important;
+  }
+
+  footer .footer-nav {
+    gap: 35px;
+    flex-direction: column;
+    /* margin-top: 300px !important; */
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  footer .card {
+    max-width: 250px;
+    height: 420px;
+    border-radius: 15px 100px 15px 15px;
+    position: absolute;
+    left: 40%;
+    top: 335%;
+
+    .card-divider {
+      width: 200px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .india img {
+    max-width: 450px;
+  }
+
+  .hero .menu {
+    z-index: 10;
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    display: none;
+    overflow: hidden;
+
+    .menu-left ul {
+      width: 31%;
+      max-height: 3020px !important;
+      padding-left: 10px;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      margin-top: 100px;
+      top: 0%;
+      gap: 50px;
+
+      li {
+        font-size: 13px;
+
+        span {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .hero .menu2 {
+    display: block;
+  }
+
+  .menu-right {
+    position: relative;
+    left: 25%;
+    top: -75%;
+
+    ul {
+      li {
+        list-style-type: none;
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+      }
+    }
+
+    .menu-nav-right p {
+      font-size: 13px;
+      max-width: 60%;
+    }
+
+    .nav-social i {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .india-dots {
+    left: -70% !important;
+
+    .id-2 {
+      left: 670%;
+    }
+  }
+
+  .india img {
+    max-width: 400px;
+  }
+
+  footer .card {
+    max-width: 230px;
+    height: 420px;
+
+    left: 40%;
+    top: 330%;
+  }
+
+  .card-divider {
+    max-width: 150px !important;
+  }
+
+  .hero-btm {
+    top: 67%;
+
+    .arrows {
+      padding-top: 100px !important;
+    }
+
+    .hero-empowering {
+      padding-top: 30px !important;
+      width: 450px;
+      height: 190px;
+      margin-top: 22px;
+
+      h6 {
+        width: 100%;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+  .hero-btm {
+    top: 100%;
+    width: 100%;
+
+    .hero-btm-left,
+    .arrows {
+      padding-top: 20px;
+    }
+
+    .hero-btm-left {
+      padding-left: 60px !important;
+
+      p {
+        font-size: 13px;
+      }
+    }
+
+    .hero-empowering {
+      padding-top: 20px !important;
+      width: 450px;
+      height: 101px;
+
+      h6 {
+        width: 100%;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .services-btn button {
+    padding: 10px 15px !important;
+    font-size: 12px;
+
+    position: absolute;
+    left: 75% !important;
+    top: 5%;
+  }
+
+  .ins-carousel-bottom {
+    align-items: center;
+    h4 {
+      width: 45% !important;
+      font-size: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+
+      font-size: 12px;
+    }
+  }
+
+  footer .card {
+    left: 2%;
+    top: 415%;
+  }
+
+  .footer-adrss {
+    font-size: 10px !important;
+  }
+
+  .privacy-footer ul li {
+    font-size: 10px;
+  }
+
+  .ftr-num {
+    font-size: 15px !important;
+  }
+
+  .india-dots {
+    position: relative;
+    left: -40% !important;
+  }
+
+  .menu-right {
+    left: 35%;
+    top: -75%;
+
+    .menu-nav-right p {
+      max-width: 90%;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .hero-btm {
+    top: 116%;
+  }
+
+  .hero-empowering {
+    margin-top: 2px;
+  }
+
+  .services-btn button {
+    padding: 10px 20px !important;
+  }
+
+  .india-dots {
+    left: -32% !important;
+  }
+
+  footer .card {
+    left: 2%;
+    top: 500%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero {
+    border-radius: 0 0 0 30px;
+
+    .logo img {
+      width: 180px;
+    }
+
+    .nav-left div,
+    .nav-right div {
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .hero-btm {
+    justify-content: space-between;
+    position: absolute;
+    top: 132%;
+    width: 100%;
+
+    .hero-btm-left,
+    .arrows {
+      padding-top: 20px;
+    }
+
+    .arrows {
+      padding-top: 100px !important;
+    }
+
+    .hero-btm-left {
+      padding-left: 10px !important;
+      flex-direction: column;
+
+      p {
+        font-size: 13px;
+      }
+    }
+
+    .hero-empowering {
+      padding-top: 20px !important;
+      padding-left: 20px !important;
+      line-height: 30px;
+      width: 300px;
+      height: 111px;
+      margin-top: 73px;
+
+      h6 {
+        width: 100%;
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+  .hero .menu {
+    z-index: 10;
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.3s ease-in-out;
+    display: none;
+    overflow: hidden;
+
+    .menu-left ul {
+      width: 31%;
+      max-height: 3020px !important;
+      padding-left: 10px;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      margin-top: 100px;
+      top: 0%;
+      gap: 50px;
+
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .hero .menu2 {
+    display: block;
+  }
+
+  .menu-right {
+    position: relative;
+    left: 35%;
+    top: -75%;
+
+    ul {
+      li {
+        font-size: 15px;
+        padding-bottom: 20px;
+      }
+    }
+
+    .menu-nav-right p {
+      font-size: 13px;
+      max-width: 60%;
+    }
+
+    .nav-social i {
+      font-size: 30px;
+    }
+  }
+
+  .services-btn button {
+    padding: 10px 10px !important;
+    font-size: 12px;
+
+    position: absolute;
+    left: 75% !important;
+    top: 5%;
+  }
+
+  .ins-carousel-bottom {
+    h4 {
+      width: 45% !important;
+      font-size: 12px;
+    }
+
+    button {
+      padding: 10px 10px;
+
+      font-size: 12px;
+    }
+  }
+
+  footer .card {
+    max-width: 250px;
+    height: 420px;
+    border-radius: 15px 100px 15px 15px;
+    position: absolute;
+    left: 2%;
+    top: 650%;
+
+    .card-divider {
+      width: 200px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+
+  footer {
+    .footer-nav {
+      gap: 50px;
+      margin-left: 272px;
+    }
+
+    .footer-adrss {
+      font-size: 8px;
+    }
+
+    .ftr-email {
+      font-size: 8px;
+    }
+  }
+
+  footer {
+    & .footer-nav {
+      & ul li {
+        span {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  footer {
+    & .footer-nav {
+      & ul li {
+        a {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+
+  .india-dots {
+    position: relative;
+    left: -51% !important;
+  }
+
+  .privacy-footer ul li {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 795px) and (max-width: 992px) {
+    .india-dots {
+        position: relative;
+        left: -42% !important;
+      }
+
+}
+@media (min-width: 1078px) and (max-width: 1130px) {
+    .india-dots {
+        left: -37% !important;
+      }
+
+}
+@media (min-width: 1130px) and (max-width: 1199px) {
+    .india-dots {
+        left: -35% !important;
+      }
+
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    
+    footer .card {
+       
+        top: 322%;
+    }
+
+    .services-btn button {
+        padding: 10px 10px !important;
+        font-size: 12px;
+    
+       
+      }
+
+      .hero-btm {
+   
+        top: 76%;
+
+      }
+
+
+}
+
+@media (min-width: 1399px) and (max-width: 1900px) {
+    .hero-btm {
+   
+        top: 90%;
+
+      }
+
+      .india-dots {
+        left: -29% !important;
+      }
+
+      footer .card {
+       
+        top: 390%;
+    }
+
+
+}
+
+
+
